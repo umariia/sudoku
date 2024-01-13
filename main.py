@@ -105,14 +105,11 @@ def clear():
     refresh(data)
 
 
-
-
 def clear_all():
     global data
     global cells
     data = np.zeros((9, 9), dtype=np.uint8)
     refresh(data)
-
 
 
 def refresh(matrix):
